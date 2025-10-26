@@ -1,0 +1,145 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Sulagna Dutta Choudhuri - One Page Two Column Resume
+% Based on Deedy Resume Template
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LAST UPDATED
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{Sulagna Dutta Choudhuri}{
+\href{mailto:sulagnaworld02@gmail.com}{sulagnaworld02@gmail.com} |
+9432391819 |
+\href{https://linkedin.com/in/sulagna-dutta-choudhuri}{linkedin.com/in/sulagna-dutta-choudhuri} |
+\href{https://github.com/Sulagna02}{github.com/Sulagna02}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COLUMN ONE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Education}
+
+\subsection{University of Engineering and Management}
+\descript{B.Tech in Computer Science \& Engineering}
+\location{2019 -- 2023 | Kolkata, India}
+CGPA: 9.5 / 10 \\
+Ranked 10th in University Exams
+\sectionsep
+
+\subsection{Sri Aurobindo Institute of Education}
+\descript{ISC (Class XII)}
+\location{2018 -- 2019 | Kolkata, India}
+Academic Score: 92\%
+\sectionsep
+
+\subsection{Sri Aurobindo Institute of Education}
+\descript{ICSE (Class X)}
+\location{2016 -- 2017 | Kolkata, India}
+Academic Score: 89.2\%
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Skills}
+Java \textbullet{} Spring Boot \textbullet{} MySQL \\
+REST APIs \textbullet{} Docker \textbullet{} Kubernetes \\
+Jenkins \textbullet{} Git \textbullet{} Splunk \textbullet{} AppDynamics
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SUBJECTS OF INTEREST
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Subjects of Interest}
+Data Structures \& Algorithms \\
+Database Management Systems
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Links}
+LinkedIn:// \href{https://linkedin.com/in/sulagna-dutta-choudhuri}{\bf sulagna-dutta-choudhuri} \\
+GitHub:// \href{https://github.com/Sulagna02}{\bf Sulagna02}
+\sectionsep
+
+\end{minipage}
+\hfill
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COLUMN TWO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{minipage}[t]{0.66\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROFESSIONAL SUMMARY
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Professional Summary}
+Java Backend Developer with 2+ years’ experience in Spring Boot and MySQL. Strong in system design, data structures \& algorithms, and building scalable backend architectures.
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Experience}
+
+\runsubsection{HSBC Technologies India}
+\descript{| Software Engineer}
+\location{July 2023 – Present | Pune, India}
+
+\vspace{0.9em} % <-- ADDS MORE SPACE before bullet list
+
+\begin{tightemize}
+\item Designed and developed secure REST APIs using Java Spring Boot for scalable microservices.
+\item Optimized MySQL queries, improving API performance and reducing latency by 20\%.
+\item Deployed multiple APIs to production environments, ensuring smooth release cycles and post-deployment stability.
+\item Automated CI/CD pipelines in Jenkins for streamlined build, test, and deployment.
+\item Integrated Splunk and AppDynamics for proactive monitoring and issue resolution.
+\item Improved static code quality through SonarLint fixes and regular code reviews.
+\item Collaborated in Agile sprints to deliver backend modules efficiently and on schedule.
+\item Conducted unit testing, debugging, and code reviews ensuring reliability and maintainability of backend systems.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Projects}
+
+\runsubsection{URL Shortener Backend}
+\descript{| Java Spring Boot, MySQL}
+\begin{tightemize}
+\item Developed a scalable URL shortening service with REST APIs, redirect handling, and analytics.
+\item Focused on modular design for easy scalability and deployment.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     ACHIEVEMENTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Achievements}
+\vspace{0.8em} % <-- ADDS MORE SPACE before bullet list
+\begin{tightemize}
+\item \textbf{Pat on the Back Award (Q4 2024)} – Recognized at HSBC for outstanding performance and project delivery.
+\item \textbf{1st Runner-Up, CodeFury 2023} – Built backend for Order Processing System; awarded for technical excellence.
+\item \textbf{Top 10 Rank (UEM Kolkata)} – Ranked 10th in CSE Department among 2019–2023 batch.
+\end{tightemize}
+
+\end{minipage}
+\end{document}
